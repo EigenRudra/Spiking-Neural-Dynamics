@@ -1,4 +1,4 @@
-# My attempt at Spiking Neural Network (SNN) Engine
+# Spiking Neural Network (SNN) Engine attempt
 
 **Author:** Rudraneel Shee | B.Tech Engineering Physics
 **Focus:** Trying to learn about Neuromorphic Computing
