@@ -2,6 +2,7 @@
 *.out
 *.exe
 single_lif
+snn_layer
 
 *.dat
 *.csv
