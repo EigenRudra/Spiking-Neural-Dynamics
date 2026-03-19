@@ -56,7 +56,7 @@ Instead of a single injected current, neurons now receive discrete spikes from m
 
 $$\mathbf{I}_{in} = \mathbf{W} \cdot \mathbf{S}_{in}$$
 
-*(Where $\mathbf{S}_{in}$ is a binary vector representing which sensory inputs fired at the current millisecond).*
+*(Where **S**<sub>in</sub> is a binary vector representing which sensory inputs fired at the current millisecond).*
 
 #### Temporal Integration & Asynchronous Dynamics
 
