@@ -3,6 +3,8 @@
 *.exe
 single_lif
 snn_layer
+stdp_layer
+a.out
 
 *.dat
 *.csv
