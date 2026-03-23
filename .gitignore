@@ -5,6 +5,11 @@ single_lif
 snn_layer
 stdp_layer
 a.out
+mnist_snn
+
+*idx1-ubyte
+*idx3-ubyte
+*-ubyte
 
 *.dat
 *.csv
