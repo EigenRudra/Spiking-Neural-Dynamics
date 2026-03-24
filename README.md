@@ -45,7 +45,7 @@ To compile the C++ engine and run the Python visualization dashboards, your syst
 
 *(Note: This project was developed and tested in a Linux/Ubuntu environment.)*
 
-## Part 1: The Single LIF NeuronThe final engine is a competitive unsupervised classifier designed for the MNIST dataset.
+## Part 1: The Single LIF Neuron
 The foundational unit of this network is the **Leaky Integrate-and-Fire (LIF)** neuron. It is modeled as a parallel RC circuit where the cell membrane acts as a capacitor and ion channels act as resistors.
 
 ### The Physics & Mathematics
