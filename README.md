@@ -164,13 +164,13 @@ python3 view.py
 ```
 
 ### Visualization
-![Training, Labelling & Accuracy](04_MNIST_Classfication/Training-Labelling-Accuracy.png)
-![First 100 neurons](04_MNIST_Classfication/SNN_Synaptic_Weights.png)
+![Training, Labelling & Accuracy](04_MNIST_Classifier/Training-Labelling-Accuracy.png)
+![First 100 neurons](04_MNIST_Classifier/SNN_Synaptic_Weights.png)
 
 Few Specific Digits:
-![Digit 1](04_MNIST_Classfication/Neuron_1.png)
-![Digit 2](04_MNIST_Classfication/Neuron_2.png)
-![Digit 0](04_MNIST_Classfication/Neuron_0.png)
+![Digit 1](04_MNIST_Classifier/Neuron_1.png)
+![Digit 2](04_MNIST_Classifier/Neuron_2.png)
+![Digit 0](04_MNIST_Classifier/Neuron_0.png)
 ____
 
 *(NOTE: `dev_log/` folder inside 04_MNIST_Classifier is NOT UPDATED. It will contain some intermediate files I created while slowly building my logic from 03_STDP_Learning to final boss level 04_MNIST_Classifier. I haven't pushed all files from my local environment to Github repo yet. WILL UPDATE SOON!)*
