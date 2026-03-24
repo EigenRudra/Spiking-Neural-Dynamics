@@ -130,6 +130,7 @@ g++ -I/usr/include/eigen3 stdp_layer.cpp -o stdp_layer
 ./stdp_layer
 ```
 *(Note: If your Eigen installation is in a different directory, adjust the `-I` flag accordingly).*
+
 ---
 
 
