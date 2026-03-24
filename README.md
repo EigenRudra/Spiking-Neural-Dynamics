@@ -169,7 +169,7 @@ python3 view.py
 ![Training, Labelling & Accuracy](04_MNIST_Classifier/Training-Labelling-Accuracy.png)
 ![First 100 neurons](04_MNIST_Classifier/SNN_Synaptic_Weights.png)
 
-####Few Specific Digits:
+#### Few Specific Digits:
 ![Digit 1](04_MNIST_Classifier/Neuron_1.png)
 ![Digit 2](04_MNIST_Classifier/Neuron_2.png)
 ![Digit 0](04_MNIST_Classifier/Neuron_0.png)
