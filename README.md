@@ -50,9 +50,11 @@ The foundational unit of this network is the **Leaky Integrate-and-Fire (LIF)** 
 
 ### The Physics & Mathematics
 The continuous subthreshold membrane potential $V(t)$ is governed by:
+
 $$ \tau_m \frac{dV}{dt} = -(V(t) - V_{rest}) + R \cdot I_{in}(t) $$
 
 Because the simulation operates in discrete computational steps ($dt$), the continuous derivative is approximated using the **Forward Euler method**:
+
 $$ V(t+dt) = V(t) + \left(\frac{dt}{\tau_m}\right) \left[ -(V(t) - V_{rest}) + R \cdot I_{in}(t) \right] $$
 
 Once the voltage crosses a defined threshold ($V_{th}$), the continuous integration is interrupted. A discrete spike event is recorded, and the voltage is instantaneously forced back to the reset potential ($V_{reset}$), creating the characteristic sawtooth wave.
