@@ -49,13 +49,13 @@ To compile the C++ engine and run the Python visualization dashboards, your syst
 The foundational unit of this network is the **Leaky Integrate-and-Fire (LIF)** neuron. It is modeled as a parallel RC circuit where the cell membrane acts as a capacitor and ion channels act as resistors.
 
 ### The Physics & Mathematics
-The continuous subthreshold membrane potential `V(t)` is governed by:
-`τ_m * (dV/dt) = -(V(t) - V_rest) + R * I_in(t)`
+The continuous subthreshold membrane potential $V(t)$ is governed by:
+$$ \tau_m \frac{dV}{dt} = -(V(t) - V_{rest}) + R \cdot I_{in}(t) $$
 
-Because the simulation operates in discrete computational steps (`dt`), the continuous derivative is approximated using the **Forward Euler method**:
-`V(t+dt) = V(t) + (dt / τ_m) * [ -(V(t) - V_rest) + R * I_in(t) ]`
+Because the simulation operates in discrete computational steps ($dt$), the continuous derivative is approximated using the **Forward Euler method**:
+$$ V(t+dt) = V(t) + \left(\frac{dt}{\tau_m}\right) \left[ -(V(t) - V_{rest}) + R \cdot I_{in}(t) \right] $$
 
-Once the voltage crosses a defined threshold (`V_th`), the continuous integration is interrupted. A discrete spike event is recorded, and the voltage is instantaneously forced back to the reset potential (`V_reset`), creating the characteristic sawtooth wave.
+Once the voltage crosses a defined threshold ($V_{th}$), the continuous integration is interrupted. A discrete spike event is recorded, and the voltage is instantaneously forced back to the reset potential ($V_{reset}$), creating the characteristic sawtooth wave.
 
 ### Visualization
 ![LIF Dynamics](01_Single_LIF_Neuron/lif_graph.png)
